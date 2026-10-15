@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "안전비서 의존성 설치",
+            "type": "shell",
+            "command": "python -m pip install -r requirements.txt",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "안전비서 실행",
+            "type": "shell",
+            "command": "python desktop_app.py",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

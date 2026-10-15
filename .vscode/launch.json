@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "퓨밍이 안전비서 실행",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/desktop_app.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONUTF8": "1"
+            }
+        }
+    ]
+}

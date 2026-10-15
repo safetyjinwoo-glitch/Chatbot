@@ -1,0 +1,17 @@
+.streamlit/
+.claude/
+.venv/
+__pycache__/
+*.py[cod]
+secrets.toml
+*.db
+build/
+build_*/
+dist/
+dist_*/
+release_build/
+release_dist/
+source_package_staging/
+source_package_staging_*/
+*.zip
+*.lnk
